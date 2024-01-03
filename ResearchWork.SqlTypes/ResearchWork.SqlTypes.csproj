@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoBogus" Version="2.13.1"/>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.25"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="6.0.25"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="6.0.25"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ResearchWork.Entities\ResearchWork.Entities.csproj"/>
+    </ItemGroup>
+
+</Project>
